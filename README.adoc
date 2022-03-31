@@ -66,7 +66,24 @@ toc::[]
 
 == Write queries to answer the following questions:
 
+
 === Write a query to find what is the total business done by each store.
+
+`*_Answer:_*`
+
+```sql
+SELECT 
+    s.store_id, FORMAT(SUM(amount), 2, 'de_DE') income
+FROM
+    rental r
+        JOIN
+    payment p ON r.rental_id = p.rental_id
+        JOIN
+    staff s ON p.staff_id = s.staff_id
+GROUP BY s.store_id;
+```
+
+image::https://user-images.githubusercontent.com/63274055/161054807-07c5e147-7ff6-4bc5-b506-11f16edce42f.png[width=400]
 
 
 === Convert the previous query into a stored procedure.
