@@ -83,7 +83,7 @@ FROM
 GROUP BY s.store_id;
 ```
 
-image::https://user-images.githubusercontent.com/63274055/161054807-07c5e147-7ff6-4bc5-b506-11f16edce42f.png[width=400]
+image::https://user-images.githubusercontent.com/63274055/161054807-07c5e147-7ff6-4bc5-b506-11f16edce42f.png[width=300]
 
 
 === Convert the previous query into a stored procedure.
