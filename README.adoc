@@ -167,7 +167,7 @@ call income_store_id_to_v(1, @total_sales_value);
 select @total_sales_value;
 ```
 
-image::https://user-images.githubusercontent.com/63274055/161063813-22e0620a-5bd8-4eb3-b7f5-887d3651f231.png[width=800]
+image::https://user-images.githubusercontent.com/63274055/161063813-22e0620a-5bd8-4eb3-b7f5-887d3651f231.png[width=300]
 
 
 
