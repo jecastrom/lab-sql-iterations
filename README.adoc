@@ -64,7 +64,7 @@ toc::[]
 
 = Instructions:
 
-=== Write queries to answer the following questions:
+== Write queries to answer the following questions:
 
 === Write a query to find what is the total business done by each store.
 
@@ -72,7 +72,7 @@ toc::[]
 === Convert the previous query into a stored procedure.
 
 
-== Convert the previous query into a stored procedure that takes the input for `store_id` and displays the total sales for that store.
+=== Convert the previous query into a stored procedure that takes the input for `store_id` and displays the total sales for that store.
 
 === Update the previous query. Declare a variable `total_sales_value` of float type, that will store the returned result (of the total sales amount for the store). Call the stored procedure and print the results.
 
