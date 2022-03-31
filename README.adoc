@@ -64,7 +64,7 @@ toc::[]
 
 = Instructions:
 
-== Write queries to answer the following questions:
+=== Write queries to answer the following questions:
 
 === Write a query to find what is the total business done by each store.
 
